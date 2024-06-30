@@ -11,3 +11,13 @@
 * POSTGRES_HOST=localhost
 * POSTGRES_PORT=5432
 * POSTGRES_DB=postgres
+
+
+Для инициализации документации выполнить следующие команды
+
+```
+
+//go install github.com/swaggo/swag/cmd/swag@v1.8.12
+//swag init -g cmd/main.go --parseDependency --parseInternal -d ./,internal/db,pkg/handlers - to generate docs
+
+```
