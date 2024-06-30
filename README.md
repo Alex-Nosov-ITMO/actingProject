@@ -5,8 +5,9 @@
 Для запуска нужно создать файл `.env` в корне приложения с несколькими переменными окружения.
 
 Пример переменных:
-*POSTGRES_USER=postgres
-*POSTGRES_PASSWORD=postgres
-*POSTGRES_HOST=localhost
-*POSTGRES_PORT=5432
-*POSTGRES_DB=postgres
+
+* POSTGRES_USER=postgres
+* POSTGRES_PASSWORD=postgres
+* POSTGRES_HOST=localhost
+* POSTGRES_PORT=5432
+* POSTGRES_DB=postgres
