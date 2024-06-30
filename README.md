@@ -21,3 +21,14 @@
 //swag init -g cmd/main.go --parseDependency --parseInternal -d ./,internal/db,pkg/handlers - to generate docs
 
 ```
+
+
+Для запуска приложения выполнить команду 
+```
+docker compose up
+```
+
+В перспективе планируется:
+* Реализовать юнит и интеграционные тесты
+* Поддержка RabbitMQ
+* Middleware для авторизации
